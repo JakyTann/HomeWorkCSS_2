@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+nav .navi {
+    display: flex;
+    height: 200px;
+}
+
+nav .navi {
+    display: flex;
+    width: 75vw;
+}
+
+nav img {
+    width: 70px;
+    margin-right: 70px;
+    padding-bottom: 40px;
+}
+
+nav .navi ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    color: white;
+    list-style: none;
+    padding-bottom: 45px;
+}
+
+section {
+    display: flex;
+    justify-content: end;
+    height: 600px;
+}
+
+section .hero {
+    margin-top: 100px;
+}
+
+.background01 {
+    height: 800px;
+    width: 90vw;
+    right: 0px;
+    position: absolute;
+    background-color: rgb(51, 179, 85);
+    z-index: -2;
+}
+
+.background02 {
+    height: 650px;
+    width: 75vw;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/5PMe5hr8tjSS9Nq5d6Cebe.jpg);
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    transform: translate(0px,150px);
+}
+
+section .hero {
+    background-color: white;
+    margin-right: 230px;
+    margin-left: auto;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+section .hero .about {
+margin: 40px;
+}
+
+section .hero .about h1 {
+    margin-bottom: 20px;
+}
+
+section .hero button {
+    position: absolute;
+    transform: translate(192px,73px);
+    padding: 10px;
+    border: none;
+    width: 150px;
+    background-color: rgb(72, 203, 85);
+    color: white;
+}
+
+section .tagcolor {
+    width: 50px;
+    height: 300px;
+    background-color: rgb(57, 214, 75);
+    position: absolute;
+    transform: translate(-90px,-94px);
+    opacity: 0.35;
+}
+
+.service {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.service img {
+    width: 100px;
+}
+
+.service button {
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+    width: 150px;
+    background-color: rgb(72, 203, 85);
+    color: white;
+}
+
+
+.aboutUs {
+    height: 350px;
+    display: flex;
+}
+
+.aboutUs .group {
+    position: relative;
+}
+
+.aboutUs img {
+    height: 350px;
+    width: 55vw;
+    left: 0;
+}
+
+.aboutUs .us {
+    margin-left: 50px;
+    padding-top: 100px;
+}
+
+.aboutUs .us p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.aboutUs .us button {
+    border: none;
+    padding: 10px;
+    width: 150px;
+    background-color: rgb(72, 203, 85);
+    color: white;
+}
+
+.aboutUs .tagcolor {
+    width: 70px;
+    height: 300px;
+    background-color: rgb(57, 214, 75);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.35;
+}
+
